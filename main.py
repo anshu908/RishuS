@@ -25,9 +25,9 @@ from typing import Optional
 import random
 
 # Bot details from environment variables
-BOT_TOKEN = os.getenv("BOT_TOKEN")  # Environment variable se token le raha hai #Your bot token 
-CHANNEL_1_USERNAME = "Ur_Rishu_143"  # First channel username
-CHANNEL_2_USERNAME = "Vip_robotz"  # Second channel username
+BOT_TOKEN = os.getenv("7981716643:AAFWlWHIKUpUlnijTc8m4eHvBsdQRJ2KUHA")  # Environment variable se token le raha hai #Your bot token 
+CHANNEL_1_USERNAME = "ansh_hack"  # First channel username
+CHANNEL_2_USERNAME = "ans_X_bot"  # Second channel username
 API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
 API_ID = "14050586"
 
@@ -40,7 +40,7 @@ start_time = time.time()
 # MongoDB setup
 mongo_client = pymongo.MongoClient(
     os.getenv(
-        "MONGO_URL","Mango db url dalooo"
+        "MONGO_URL","mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
     )
 )
 db = mongo_client[os.getenv("MONGO_DB_NAME", "Rishu-free-db")]
