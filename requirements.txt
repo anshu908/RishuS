@@ -1,10 +1,3 @@
-Flask
-pymongo
-pyrogram
-requests
-pycryptodome
-TgCrypto
-ffprobe
-httpx
-beautifulsoup4
-validators
+python-telegram-bot==20.7
+yt-dlp
+ffmpeg
